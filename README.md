@@ -1,6 +1,6 @@
-# 💡 Desafios em Python
-Coleção de projetos desenvolvidos em Python com foco em **lógica de programação, automação e simulação de cenários reais**.
-Este repositório representa minha evolução como desenvolvedor, explorando desde scripts básicos até sistemas com regras de negócio mais estruturadas.
+# 🐍 Desafios e Pequenos Projetos em Python
+- Coleção de projetos desenvolvidos em Python com foco em lógica de programação, automação e simulação de cenários reais.
+- Este repositório representa minha evolução como desenvolvedor, explorando desde scripts básicos até sistemas com regras de negócio mais estruturadas.
 ---
 
 ## 🚀 Objetivo
@@ -10,7 +10,6 @@ Desenvolver habilidades em:
 - Estruturação de código
 - Simulação de sistemas do mundo real
 - Automação com Python
-
 ---
 
 ## 📂 Projetos
@@ -47,7 +46,6 @@ Desenvolver habilidades em:
 ### ⏱️ Produtividade
 - `ProductiveClock.py`
 
----
 
 ## 🛠️ Tecnologias Utilizadas
 - Python 3.x
@@ -62,12 +60,11 @@ Desenvolver habilidades em:
 - Projetos voltados para prática e evolução contínua
 - Simulação de problemas reais para desenvolvimento de raciocínio lógico
 - Código em constante melhoria
----
+
 
 ## 👨‍💻 Sobre mim
 Sou estudante de **Análise e Desenvolvimento de Sistemas**, com foco em evoluir como desenvolvedor através da prática consistente em lógica, automação e construção de sistemas.
 
----
 
 ## 📫 Contato
 - LinkedIn: [Paulo Henrique]
