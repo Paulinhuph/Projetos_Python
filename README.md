@@ -1,29 +1,79 @@
-# Desafios em Python 💡
-Coleção de pequenos projetos e desafios em Python criados para praticar lógica de programação e automação.
+# 💡 Desafios em Python
+Coleção de projetos desenvolvidos em Python com foco em **lógica de programação, automação e simulação de cenários reais**.
+Este repositório representa minha evolução como desenvolvedor, explorando desde scripts básicos até sistemas com regras de negócio mais estruturadas.
+---
 
-## Projetos incluídos:
-- Avaliação de desempenho de colaboradores.
-- Sistema de descontos da loja inteligente.
-- Calculadora de bônus salarial.
-- Painel de desempenho da empresa.
-- Avaliação de Metas de Vendas.
-- Calculadora de Comissão.
-- Sistema de Acesso ao escritório.
-- Sistema de Acesso Corporativo.
-- Desafio de Atena.
-- O Despertar da I.A. Oráculo
-- Sistema de Avaliação Corporativa – BiuAnalytics
-- Sistema de Feedback Inteligente do Colaborador – BiuMind Corp.
-- Sistema de Contagem de Partos da Maternidade - JJMS.
-- Sistema de Dados Individuais de Parto com relatório.
-- Sistema de Triagem e Avaliação de SSVV Hospitalar.
+## 🚀 Objetivo
+Desenvolver habilidades em:
+- Pensamento computacional
+- Resolução de problemas
+- Estruturação de código
+- Simulação de sistemas do mundo real
+- Automação com Python
 
-## Tecnologias
-- Python 3
-- VS Code
-- Git & GitHub
+---
 
-Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e sempre buscando aprender mais sobre programação, lógica e automação com Python.
+## 📂 Projetos
 
-📫 Me encontre no LinkedIn: [Paulo Henrique]
-💻 Acompanhe meus projetos aqui no GitHub!
+### 📊 Análise de Dados e Performance
+- `Analisador_de_Dados_da_BiuData_Solutions.py`
+- `Painel_de_Desempenho_da_Empresa.py`
+
+### 👥 Sistemas Corporativos
+- `Sistema_de_Acesso_Corporativo.py`
+- `Sistema_de_Acesso_ao_Escritório.py`
+- `Sistema_de_Avaliação_Corporativa_BiuAnalytics.py`
+- `Sistema_de_Feedback_Inteligente_BiuMind_Corp.py`
+
+### 💰 Finanças e Negócios
+- `Calculadora_de_Comissão.py`
+- `Calculadora_de_Bônus_Salarial.py`
+- `Avaliação_de_metas_de_vendas.py`
+- `Sistema_de_Descontos_da_Loja_Inteligente.py`
+
+### 🏥 Área da Saúde
+- `Monitoramento_Obstétrico_em_Python/`
+- `Contagem_Partos_Maternidade.py`
+- `Dados_Individual_Parto.py`
+- `Avaliação_de_Sinais_Vitais.py`
+
+### 🍔 Sistemas Simulados (Aplicações)
+- `sabor_express.py` → Simulação de sistema de pedidos (ex: lanchonete/delivery)
+
+### 🧠 Desafios e Projetos Experimentais
+- `Desafio_Atena.py`
+- `O_Despertar_da_I.A._Oráculo.py`
+
+### ⏱️ Produtividade
+- `ProductiveClock.py`
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- Python 3.x
+- Lógica de programação
+- Estruturas condicionais e de repetição
+- Funções e organização de código
+- Git e GitHub
+
+---
+
+## 📌 Sobre o Repositório
+- Projetos voltados para prática e evolução contínua
+- Simulação de problemas reais para desenvolvimento de raciocínio lógico
+- Código em constante melhoria
+---
+
+## 👨‍💻 Sobre mim
+Sou estudante de **Análise e Desenvolvimento de Sistemas**, com foco em evoluir como desenvolvedor através da prática consistente em lógica, automação e construção de sistemas.
+
+---
+
+## 📫 Contato
+- LinkedIn: [Paulo Henrique]
+
+---
+
+## 📜 Licença
+
+Este projeto está sob a licença Apache 2.0.
