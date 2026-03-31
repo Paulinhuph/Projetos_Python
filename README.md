@@ -42,7 +42,7 @@ Desenvolver habilidades em:
 ### 🧠 Desafios e Projetos Experimentais
 - `Desafio_Atena.py`
 - `O_Despertar_da_I.A._Oráculo.py`
-
+- `Sistema_de_Cadastro_de_Livros.py`
 ### ⏱️ Produtividade
 - `ProductiveClock.py`
 
