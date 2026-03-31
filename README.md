@@ -29,6 +29,7 @@ Desenvolver habilidades em:
 - `Calculadora_de_Bônus_Salarial.py`
 - `Avaliação_de_metas_de_vendas.py`
 - `Sistema_de_Descontos_da_Loja_Inteligente.py`
+- `ConversorDolarReal.py`
 
 ### 🏥 Área da Saúde
 - `Monitoramento_Obstétrico_em_Python/`
