@@ -67,9 +67,6 @@ Desenvolver habilidades em:
 Sou estudante de **Análise e Desenvolvimento de Sistemas**, com foco em evoluir como desenvolvedor através da prática consistente em lógica, automação e construção de sistemas.
 
 
-## 📫 Contato
-- LinkedIn: [Paulo Henrique]
-
 ---
 
 ## 📜 Licença
