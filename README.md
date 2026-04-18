@@ -47,7 +47,7 @@ Desenvolver habilidades em:
 ### ⏱️ Produtividade
 - `ProductiveClock.py`
 
-# Exercícios 
+## 👨‍💻 Exercícios 
 1-100 Resolução e Enunciado
 101-200 Resolução e Enunciado
 201-300 Resolução e Enunciado
