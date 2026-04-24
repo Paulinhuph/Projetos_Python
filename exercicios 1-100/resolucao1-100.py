@@ -1451,3 +1451,89 @@ else:
 
 
 # Exc 83 
+mais_velha = {"nome": "", "idade": 0}
+mulher_mais_jovem = {"nome": "", "idade": 999}
+total_idade = 0
+total_pessoas = 0
+idade_h_acima_30 = 0
+idade_m_menor_18 = 0
+while True:
+    nome = input("Digite o nome: ").strip()
+    idade = int(input(f"Digite a idade de {nome}: "))
+    sexo = input("Sexo (masculino/feminino): ").lower().strip()
+    total_idade += idade
+    total_pessoas += 1
+    if idade > mais_velha["idade"]:
+        mais_velha["nome"] = nome
+        mais_velha["idade"] = idade
+    if sexo == "feminino":
+        # B) Lógica da mais jovem
+        if idade < mulher_mais_jovem["idade"]:
+            mulher_mais_jovem["nome"] = nome
+            mulher_mais_jovem["idade"] = idade
+        # E) Lógica de contagem (Independente de ser a mais jovem ou não)
+        if idade < 18:
+            idade_m_menor_18 += 1
+    # D) Homens acima de 30
+    if sexo == "masculino" and idade > 30:
+        idade_h_acima_30 += 1
+    deseja_continuar = input("Deseja Cadastrar mais? (sim/não): ").lower().strip()
+    if deseja_continuar in ['n', 'não', 'nao']:
+        break
+media = total_idade / total_pessoas if total_pessoas > 0 else 0
+print("-" * 30)
+print(f"a) A Pessoa Mais Velha: {mais_velha['nome']} com {mais_velha['idade']} anos.")
+print(f"b) A Mulher mais Jovem: {mulher_mais_jovem['nome']} com {mulher_mais_jovem['idade']} anos.")
+print(f"c) Media de idade do Grupo: {media:.1f} anos")
+print(f"d) Homens acima de 30 anos: {idade_h_acima_30}")
+print(f"e) Mulheres menores de 18 anos: {idade_m_menor_18}")
+
+# Exc 84
+quantidade_idades_digitadas = 0
+pessoas_maiores_21 = 0
+total_idades_digitadas = 0
+while True: 
+    # Entrada de dados
+    idade = int(input("Digite a idade: "))
+    # Processamento de Dados (Acúmulo e Contagem)
+    quantidade_idades_digitadas += 1
+    total_idades_digitadas += idade
+    # Critério C: 21 anos ou mais
+    if idade >= 21:
+        pessoas_maiores_21 += 1
+    # Controle de Fluxo (Sentinela)
+    deseja_continuar = input("Deseja Cadastrar mais? (sim/não): ").lower().strip()
+    if deseja_continuar in ['n', 'não', 'nao']:
+        break
+media = total_idades_digitadas / quantidade_idades_digitadas
+print("-" * 30)
+print(f"a) Quantas idades foram registradas: {quantidade_idades_digitadas} idades digitadas")
+print(f"b) A idade Média entre as idades foi: {media:.1f} anos")
+print(f"c) Total de Pessoas Acima de 21 anos: {pessoas_maiores_21} pessoas.")
+
+
+# Exc 85
+soma_todos_valores = 0
+menor_valor_digitado = []
+quantidade_valores_digitados = 0
+valores_pares = 0
+while True: 
+    numero = float(input("Digite o número: "))
+    menor_valor_digitado.append(numero)
+    quantidade_valores_digitados += 1
+    soma_todos_valores += numero
+    if numero % 2 == 0:
+        valores_pares += 1
+    deseja_continuar = input("Deseja Adicionar mais números? (sim/não): ").strip().lower()
+    if deseja_continuar in ['n', 'não', 'nao']:
+        break
+if quantidade_valores_digitados > 0:
+    media = soma_todos_valores / quantidade_valores_digitados
+else:
+    media = 0
+print("-" * 30)
+print(f"a) Quantas idades foram registradas: {quantidade_valores_digitados} valores.")
+print(f"b) O Menor valor digitado foi: {min(menor_valor_digitado)}")  
+print(f"A Média entre os valores foi: {media:.1f}")
+print(f"O Total de Valores pares foi: {valores_pares} números pares.")      
+
