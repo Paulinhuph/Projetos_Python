@@ -1,0 +1,8 @@
+{
+    "nome": "Ana",
+    "idade": 32,
+    "enderecos": [
+        "Endereço A",
+        "Endereço B"
+    ]
+}
