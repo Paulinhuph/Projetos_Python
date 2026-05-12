@@ -1536,4 +1536,51 @@ print(f"a) Quantas idades foram registradas: {quantidade_valores_digitados} valo
 print(f"b) O Menor valor digitado foi: {min(menor_valor_digitado)}")  
 print(f"A Média entre os valores foi: {media:.1f}")
 print(f"O Total de Valores pares foi: {valores_pares} números pares.")      
+# Exc 86
+mulheres_cadastradas = 0
+homens_acima_100 = 0
+total_peso_mulheres = 0
+maior_peso_homens = 0
+for i in range(1, 4): # Usei 3 como no seu exemplo
+    sexo = input(f"Gênero da {i}ª pessoa (masculino/feminino): ").lower().strip()
+    peso = float(input(f"Peso da {i}ª pessoa (KG): "))  
+    if sexo == "feminino":
+        mulheres_cadastradas += 1
+        total_peso_mulheres += peso 
+    elif sexo == "masculino":
+        # Primeiro: Verificamos se ele entra na contagem de +100kg
+        if peso > 100:
+            homens_acima_100 += 1  
+        # Segundo: Verificamos se ele é o mais pesado (independente do peso)
+        # Esse IF fica fora do IF acima, mas dentro do ELIF masculino
+        if peso > maior_peso_homens:
+            maior_peso_homens = peso
+# Cálculos finais
+media = total_peso_mulheres / mulheres_cadastradas if mulheres_cadastradas > 0 else 0
+print("-" * 30)
+print(f"a) Total mulheres cadastradas: {mulheres_cadastradas}")
+print(f"b) Homens que pesam mais de 100kg: {homens_acima_100}")
+print(f"c) A média de peso entre mulheres: {media:.1f}")
+print(f"d) O Maior peso entre os homens: {maior_peso_homens}")
 
+
+# Exc 87
+def gerar_tabuada(numero_digitado):
+    # Gera e exibe no console as tabuadas de multiplicação do 0 até o número fornecido.
+    #   numero_digitado (int): O limite superior de qual tabuada será calculada.
+    # Loop externo: define qual tabuada está sendo calculada no momento (de 0 até o limite)
+    for i in range(0, numero_digitado + 1):
+        print(f"\n---Tabuada do {i}---")
+        
+        # Variável auxiliar (calcula o produto do limite pelo índice atual)
+        tabuada = numero_digitado * i
+        
+        # Loop interno: percorre os multiplicadores de 0 a 10 para a tabuada atual (i)
+        for j in range(0, 11):
+            resultado = i * j
+            # Exibe a linha da tabuada formatada
+            print(f"{i} x {j} = {resultado}")
+# Entrada de dados: solicita ao usuário um número inteiro
+numero_digitado = int(input("Digite o Número para exibição das Tabuadas: "))
+# Chamada da função passando o valor digitado pelo usuário
+tabuadas = gerar_tabuada(numero_digitado)
