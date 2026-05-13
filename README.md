@@ -11,12 +11,13 @@ Desenvolver habilidades em:
 - **Persistência de dados (SQL e NoSQL)**
 - Automação e Manipulação de arquivos
 
-## 📂 Projetos
+## 📂 Projetos e Estudos
 
 ### 🌐 Flask & APIs (StyleSync)
 
 - **FlaskAPI-Study/**: Estudos de rotas, Blueprints e padrões de fábrica.
 - **gerenciador_tarefas.py**: API para controle de produtividade.
+- **STYLESYNC-FLASK**: Sistema de gestão de E-commerce com Flask e MongoDB
 
 ### 🗄️ Banco de Dados (CRUD & Modelagem)
 
@@ -52,7 +53,7 @@ Desenvolver habilidades em:
 
 ### 👨‍💻 Exercícios de Lógica
 
-- **1-100**: Resoluções e Enunciados (incluindo o gerador de tabuadas dinâmico).
+- **1-100**: Resoluções e Enunciados
 - **101-200 / 201-300**: Em desenvolvimento.
 
 ## 🛠️ Tecnologias Utilizadas
